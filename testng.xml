@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+
+    <listeners>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
+    </listeners>
+
+    <test name="All Tests Execution">
+        <classes>
+            <class name="testCases.RecruitmentTest" />
+            <class name="testCases.UserManagementTest"/>
+        </classes>
+    </test>
+</suite>
